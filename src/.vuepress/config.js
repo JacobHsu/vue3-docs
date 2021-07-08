@@ -239,6 +239,7 @@ const sidebar = {
 module.exports = {
   title: 'Vue.js',
   description: 'Vue.js - The 渐进式 JavaScript 框架',
+  base: '/vue3/',
   locales: {
     '/': {
       lang: 'zh-CN'
