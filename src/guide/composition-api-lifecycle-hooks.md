@@ -32,7 +32,7 @@
 
 ```js
 // MyBook.vue
-
+import { onMounted } from 'vue'
 export default {
   setup() {
     // mounted
@@ -42,3 +42,5 @@ export default {
   }
 }
 ```
+
+參考: [生命周期钩子](https://jacobhsu.github.io/vue3-docs/api/composition-api.html#setup)
