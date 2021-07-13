@@ -398,32 +398,6 @@ module.exports = {
         ]
       },
       {
-        text: '支持 Vue',
-        link: '/support-vuejs/',
-        items: [
-          {
-            text: '一次性捐款',
-            link: '/support-vuejs/#一次性捐款'
-          },
-          {
-            text: '周期性捐款',
-            link: '/support-vuejs/#周期性赞助'
-          },
-          {
-            text: '贴纸',
-            link: 'https://www.smallsticker.com/%E8%B4%B4%E7%BA%B8/vue.html'
-          },
-          {
-            text: '周边',
-            link: 'https://osholic.com/?utm_source=vue&utm_medium=dropdown'
-          },
-          {
-            text: 'T-Shirt 商店',
-            link: 'https://vue.threadless.com/'
-          }
-        ]
-      },
-      {
         text: '多语言',
         link: '#',
         items: [

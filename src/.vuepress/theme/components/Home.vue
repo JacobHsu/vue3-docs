@@ -26,8 +26,6 @@
       </div>
     </header>
 
-    <SpecialSponsors :sponsors="sponsors.platinum_sponsors_china" />
-
     <section v-if="data.features && data.features.length" class="section-features">
       <div class="inner">
         <div v-for="(feature, index) in data.features" :key="index" class="feature">
@@ -38,18 +36,6 @@
     </section>
 
     <Content class="theme-default-content custom" />
-
-    <section class="section-sponsors" :class="{ active: sponsorsActive }" ref="sponsors">
-      <div class="inner">
-        <PatreonSponsors :sponsors="sponsors" />
-        <OpenCollectiveSponsors />
-        <ChinaVideoSponsors :sponsors="sponsors" />
-      </div>
-    </section>
-
-    <section class="section-newsletter">
-      <Newsletter />
-    </section>
 
     <footer class="main-footer">
       <p v-if="data.socialIcons">
