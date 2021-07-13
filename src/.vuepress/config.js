@@ -18,6 +18,7 @@ const sidebar = {
       children: [
         '/guide/installation',
         '/guide/introduction',
+        '/guide/points',
         '/guide/instance',
         '/guide/template-syntax',
         '/guide/data-methods',
