@@ -312,6 +312,10 @@ module.exports = {
             link: '/guide/introduction'
           },
           {
+            text: 'VSCode',
+            link: '/vscode/'
+          },
+          {
             text: '风格指南',
             link: '/style-guide/'
           },
