@@ -46,7 +46,11 @@ app.component('MyComponentName', {
   /* ... */
 })
 ```
-当使用 PascalCase (首字母大写命名) 定义一个组件时，你在引用这个自定义元素时两种命名法都可以使用。也就是说 `<my-component-name>` 和 `<MyComponentName>` 都是可接受的。注意，尽管如此，直接在 DOM (即非字符串的模板) 中使用时只有 kebab-case 是有效的。
+当使用 PascalCase (首字母大写命名) 定义一个组件时，你在引用这个自定义元素时两种命名法都可以使用。也就是说 `<my-component-name>` 和 `<MyComponentName>` 都是可接受的。
+
+::: warning 注意
+直接在 DOM (即非字符串的模板) 中使用时只有 `kebab-case` 是有效的。
+:::
 
 ## 全局注册
 
@@ -86,6 +90,10 @@ app.mount('#app')
 
 在所有子组件中也是如此，也就是说这三个组件在*各自内部*也都可以相互使用。
 
+::: warning 注意
+全局注册的缺点，可能会造成用户下载无谓的JS代码
+:::
+
 ## 局部注册
 
 全局注册往往是不够理想的。比如，如果你使用一个像 webpack 这样的构建系统，全局注册所有的组件意味着即便你已经不再使用其中一个组件了，它仍然会被包含在最终的构建结果中。这造成了用户下载的 JavaScript 的无谓的增加。
@@ -117,7 +125,11 @@ const app = Vue.createApp({
 
 对于 `components` 对象中的每个 property 来说，其 property 名就是自定义元素的名字，其 property 值就是这个组件的选项对象。
 
-注意**局部注册的组件在其子组件中不可用**。例如，如果你希望 `ComponentA` 在 `ComponentB` 中可用，则你需要这样写：
+::: warning 注意
+注意**局部注册的组件在其子组件中不可用**。
+:::
+
+例如，如果你希望 `ComponentA` 在 `ComponentB` 中可用，则你需要这样写：
 
 ```js
 const ComponentA = {
