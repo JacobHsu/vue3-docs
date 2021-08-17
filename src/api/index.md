@@ -13,3 +13,20 @@ Vue.js API 包含以下类目：
 - [内置组件](/api/built-in-components.html)
 - [响应性 API](/api/reactivity-api.html)
 - [组合式 API](/api/composition-api.html)
+
+## JSONPlaceholder
+
+```js
+fetch('https://jsonplaceholder.typicode.com/posts/1')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+
+```json
+{
+  id: 1,
+  title: '...',
+  body: '...',
+  userId: 1
+}
+```
