@@ -2,6 +2,12 @@
 sidebar: auto
 ---
 
+# Setting
+
+Setting > keyboard Shortcuts
+
+Search:Find in Files `Ctrl +Shift +F`
+
 # .prettierrc
 
 ```js
