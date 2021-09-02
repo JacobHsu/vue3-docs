@@ -345,6 +345,28 @@ module.exports = {
         text: '生态系统',
         items: [
           {
+            text: '资源',
+            ariaLabel: '资源菜单',
+            items: [
+              {
+                text: 'SVG 插图',
+                link: 'https://undraw.co/'
+              },
+              {
+                text: 'iHateRegex',
+                link: 'https://ihateregex.io/'
+              },
+              {
+                text: '代码片段生成',
+                link: 'https://carbon.now.sh/'
+              },
+              {
+                text: 'Notion笔记',
+                link: 'https://www.notion.so/'
+              }
+            ]
+          },
+          {
             text: '社区',
             ariaLabel: '社区菜单',
             items: [
