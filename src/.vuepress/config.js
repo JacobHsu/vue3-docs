@@ -357,6 +357,10 @@ module.exports = {
                 link: 'https://ihateregex.io/'
               },
               {
+                text: 'Color Palette',
+                link: 'https://materializecss.com/color.html'
+              },
+              {
                 text: '代码片段生成',
                 link: 'https://carbon.now.sh/'
               },
@@ -370,18 +374,6 @@ module.exports = {
             text: '社区',
             ariaLabel: '社区菜单',
             items: [
-              {
-                text: '团队',
-                link: '/community/team/'
-              },
-              {
-                text: '合作伙伴',
-                link: '/community/partners'
-              },
-              {
-                text: '加入',
-                link: '/community/join/'
-              },
               {
                 text: '主题',
                 link: '/community/themes/'
