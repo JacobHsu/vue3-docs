@@ -320,6 +320,10 @@ module.exports = {
             link: '/style-guide/'
           },
           {
+            text: '设计模式',
+            link: '/notes/gof23/'
+          },
+          {
             text: 'Cookbook',
             link: '/cookbook/'
           },
