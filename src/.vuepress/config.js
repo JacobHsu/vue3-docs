@@ -324,6 +324,10 @@ module.exports = {
             link: '/notes/gof23/'
           },
           {
+            text: '除错',
+            link: '/notes/debug/'
+          },
+          {
             text: 'Cookbook',
             link: '/cookbook/'
           },
