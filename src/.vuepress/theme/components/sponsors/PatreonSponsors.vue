@@ -14,7 +14,7 @@
           <img :src="`/images/sponsors/${sponsor.img}`" width="160" :alt="sponsor.name">
         </a>
       </div>
-      <div class="gold">
+      <!-- <div class="gold">
         <a
           :href="sponsor.url"
           target="_blank"
@@ -24,9 +24,9 @@
         >
           <img :src="`/images/sponsors/${sponsor.img}`" width="120" :alt="sponsor.name">
         </a>
-      </div>
+      </div> -->
 
-      <RoundedButton url="https://vuejs.org/support-vuejs/">成为赞助者!</RoundedButton>
+      <!-- <RoundedButton url="https://vuejs.org/support-vuejs/">成为赞助者!</RoundedButton> -->
     </template>
   </SponsorsLayout>
 </template>
