@@ -332,6 +332,10 @@ module.exports = {
             link: '/cookbook/'
           },
           {
+            text: 'Eslint',
+            link: '/eslint/'
+          },
+          {
             text: '示例',
             link: '/examples/markdown'
           },
