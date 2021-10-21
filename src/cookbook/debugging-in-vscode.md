@@ -88,6 +88,16 @@ npm run serve
 
 ![命中断点](/images/breakpoint_hit.png)
 
+##  vite [vue-dev-server](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fvuejs%2Fvue-dev-server)
+
+[vue-dev-server-analysis](https://juejin.cn/post/7021306258057592862)
+
+vue-dev-server/bin/vue-dev-server.js 文件中这行 app.use(vueMiddleware()) 打上断点。
+
+找到 vue-dev-server/package.json 的 scripts，运行脚本和调试脚本命令。
+
+VScode Siderbar > Run and Debug (Ctrl+Shift+D) >  绿色箭头 `Run Script: test`
+
 ## 替代方案
 
 ### Vue Devtools
